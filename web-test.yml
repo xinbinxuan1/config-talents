@@ -36,7 +36,11 @@ spring:
         acknowledge-mode: manual
       direct:
         acknowledge-mode: manual
-
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: 1904a
 eureka:
   client:
     service-url:
